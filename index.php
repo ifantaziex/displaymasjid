@@ -336,7 +336,7 @@
 				let bulan	= app.db.monthName[jamSekarang.format("MMMM")];
 				
 				// $('#tgl').html(moment().format("dddd, DD MMMM YYYY"));
-				$('#jam').html(jamSekarang.format("HH.mm[<div>]ss[</div>]"));
+				$('#jam').html(jamSekarang.format("HH:mm[<div>]ss[</div>]"));
 				$('#tgl').html(jamSekarang.format("["+hari+"], DD ["+bulan+"] YYYY"));
 				
 				if($('.full-screen').is(":visible")){
